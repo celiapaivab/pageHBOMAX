@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --fonte-padrao: 'Inter', sans-serif;
+}    
+    body {
+        background: black;
+        align-content: center;   
+    }
+    #img {
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+    }
+    nav a {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 29px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    header {
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 54px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    }
+    form h1 {
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 29px;
+        font-weight: 400;
+        margin-bottom: 30px;    
+    }
+    form label {
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;    
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form input {
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 33px;
+        font-weight: 400;
+        border-radius: 25px;
+        width: 566px;
+        height: 53px;
+        border: 0px;
+        background: #7F7F7F;
+    }
+    input[type="submit"]{
+        font-size: 33px;
+        font-weight: 400;
+        color: white;
+        background: #8C77E0;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        width: 214px;
+        height: 55px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    form h1 {
+        text-align: center;
+    }
+    form button {
+        font-size: 33px;
+        font-weight: 400;
+        color: white;
+        background: #8C77E0;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        width: 404.5px;
+        height: 55px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        text-align: center;
+    }
+    @media screen and (max-width:480px){
+        
+    }
